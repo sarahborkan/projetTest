@@ -23,8 +23,8 @@
       <td th:text="${client.prenom}"></td>
       <td th:text="${client.email}"></td>
       <td>
-      	<a th:href="'/admin/deleteActeur/' + ${client.id}"><button type="button" class="btn btn-danger">Supprimer</button></a>
-      	<a th:href="'/admin/updateActeur/' + ${client.id}"><button type="button" class="btn btn-info">Modifier</button></a>   	
+      	<a th:href="'/deleteClient/' + ${client.id}"><button type="button" class="btn btn-danger">Supprimer</button></a>
+      	<a th:href="'/modifierClient/' + ${client.id}"><button type="button" class="btn btn-info">Modifier</button></a>   	
       </td>
     </tr>
   </tbody>
